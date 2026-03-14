@@ -1,0 +1,9 @@
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\bin\Debug\netcoreapp1.1\Mobile-Directory.deps.json
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\bin\Debug\netcoreapp1.1\Mobile-Directory.runtimeconfig.json
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\bin\Debug\netcoreapp1.1\Mobile-Directory.runtimeconfig.dev.json
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\bin\Debug\netcoreapp1.1\Mobile-Directory.dll
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\bin\Debug\netcoreapp1.1\Mobile-Directory.pdb
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\obj\Debug\netcoreapp1.1\Mobile-Directory.csproj.CoreCompileInputs.cache
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\obj\Debug\netcoreapp1.1\Mobile-Directory.AssemblyInfo.cs
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\obj\Debug\netcoreapp1.1\Mobile-Directory.dll
+C:\Users\umair\Desktop\Git Demo\Mobile-Directory\obj\Debug\netcoreapp1.1\Mobile-Directory.pdb
