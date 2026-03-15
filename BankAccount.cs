@@ -5,6 +5,12 @@ namespace Mobile_Directory
     {
         private string accountNo;
         private double balance;
+        private string nameOfAccountHolder;
+        private string CNIC;
+        private string phoneNo;
+        private string email;
+        private string address;
+        private double initialDeposit;
         public BankAccount(string accountNo,double balance)
         {
             this.accountNo = accountNo;
