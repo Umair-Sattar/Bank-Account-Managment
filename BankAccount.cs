@@ -5,12 +5,6 @@ namespace Mobile_Directory
     {
         private string accountNo;
         private double balance;
-        private string nameOfAccountHolder;
-        private string CNIC;
-        private string phoneNo;
-        private string email;
-        private string address;
-        private double initialDeposit;
         public BankAccount(string accountNo,double balance)
         {
             this.accountNo = accountNo;
@@ -30,11 +24,10 @@ namespace Mobile_Directory
         {
             Console.Clear();
             Console.WriteLine("==== Bank Account Managment System =====");
-            Console.WriteLine("1.Add New Account");
-            Console.WriteLine("2.Display Account Details");
-            Console.WriteLine("3.Deposit Amount to Account");
-            Console.WriteLine("4.Withdraw Amount From Account");
-            Console.WriteLine("5.Exit From the System");
+            Console.WriteLine("1.Display Account Details");
+            Console.WriteLine("2.Deposit Amount to Account");
+            Console.WriteLine("3.Withdraw Amount From Account");
+            Console.WriteLine("4.Exit From the System");
             Console.WriteLine();
             bool flag = false;
             do
@@ -42,21 +35,21 @@ namespace Mobile_Directory
                 Console.Write("Enter Your Choice:");
                 if(int.TryParse(Console.ReadLine(),out int choice))
                 {
-                    if (choice >= 1 && choice <= 5)
+                    if (choice >= 1 && choice <= 4)
                     {
                         flag = true;
                         switch (choice)
                         {
-                            case 2:
+                            case 1:
                                 Display();
                                 break;
-                            case 3:
+                            case 2:
                                 Deposit();
                                 break;
-                            case 4:
+                            case 3:
                                 Withdraw();
                                 break;
-                            case 5:
+                            case 4:
                                 return;
                         }
                     }
