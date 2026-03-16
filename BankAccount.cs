@@ -91,6 +91,7 @@ namespace Mobile_Directory
         }
         public void Withdraw()
         {
+            Console.WriteLine("--------------------------");
             Console.Write("Enter the amount of money you want to withdraw from the account:");
             double removal = double.Parse(Console.ReadLine());
             if(removal<=balance)
