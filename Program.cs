@@ -8,7 +8,6 @@ namespace Mobile_Directory
         {
             BankAccount account = new BankAccount("25-NTU-CS-FL-1187",256.947);
             account.MainInterface();
-            Console.WriteLine("-------------------------");
         }
     }
 }
